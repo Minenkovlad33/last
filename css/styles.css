@@ -65,7 +65,7 @@
 }
 
 .header-list-item  > .item:nth-child(5) {
-   margin-left: 337px; 
+   margin-left: 250px;
 }
 
 .header-list-item > .item > .nav-logo{
@@ -83,12 +83,13 @@
 
 .body-main {
   display: flex;
-  width: 1600px;
   height: 600px;
   background-color: var(--page-body-color);
 }
 
 .body-main > .body-main-text{
+  margin: auto;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -98,7 +99,13 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin: auto;
+
+}
+
+.body-main > .body-main-btn{
+  color: white;
+  background-color: var(--hover-color);
+
 }
 
 
