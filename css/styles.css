@@ -2,6 +2,7 @@
     --page-bg-color:#FFFFFF;
     --primary-text-color: #212121;
     --primary-content-colot: #757575;
+    --page-body-color: #2F303A;
     --hover-color:  #2196F3;
     --card-set-gap: 30px;
     --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -74,12 +75,30 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
-
 }
 
 .header-list-item > .item > .nav-logo > span{
   color: var(--primary-text-color);
+}
+
+.body-main {
+  display: flex;
+  width: 1600px;
+  height: 600px;
+  background-color: var(--page-body-color);
+}
+
+.body-main > .body-main-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: auto;
 }
 
 
