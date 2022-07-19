@@ -131,3 +131,38 @@
 
 /* под меином  */
 
+.title {
+  margin-top: 100px;
+  margin-left: 215px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.title > .title-item{
+  width: 215px;
+
+}
+
+.title > .title-item + .title-item{
+  margin-left: 30px;
+}
+.title > .title-item > .title-item-h{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.title > .title-item > .title-item-p{
+  margin-top: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575
+}
